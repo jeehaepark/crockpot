@@ -1,7 +1,7 @@
 {
   "name": "crockpot",
   "version": "0.0.1",
-  "description": "Convert roman numerals to decimal integers",
+  "description": "Converts multiple number formats using decimal numbers as a proxy.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +15,7 @@
     "roman",
     "numeral",
     "decimal",
+    "english",
     "number"
   ],
   "author": "James Youn <jamesyoun710@gmail.com>",
@@ -31,5 +32,9 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.2",
     "mocha": "^2.4.5"
+  },
+  "peerDependencies": {
+    "crockpot-toEnglish": "0.x",
+    "crockpot-fromRoman": "0.x"
   }
 }
