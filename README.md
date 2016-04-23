@@ -29,10 +29,10 @@ $ mocha specs/**
 ## Usage
 
 ```js
-var romanNumerToDecimal = require('crockpot')
+var convert = require('crockpot')
 
-decimalToEnglish('IV')
-// 4
+convert.roman.toEnglish('IV')
+// 'four'
 ```
 ## License
 MIT
