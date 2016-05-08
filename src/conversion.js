@@ -1,5 +1,5 @@
-var fromRoman = require('crockpot-fromRoman')
-var toEnglish = require('crockpot-toEnglish')
+var fromRoman = require('crockpot-fromRoman');
+var toEnglish = require('crockpot-toEnglish');
 
 var crockPot = {
   'roman': {
@@ -10,6 +10,10 @@ var crockPot = {
 
       var temp = fromRoman(numeral);// converts numeral to decimal integer
       return toEnglish(temp); // converts decimal integer to english
-    }
+    },
+    'toDecimal' : function(numeral){
+  	
+  		return fromRoman(numeral);
+  	}
   }
-}
+};
